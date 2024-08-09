@@ -48,3 +48,27 @@ header {
 #logo img {
   height: 50px;
 }
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: url(../images/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0 50px;
+  height: 700px;
+  min-width: 1200px;
+  width: 100vw;
+}
+
+.hero .header {
+  background-color: black;
+  width: 1200px;
+}
+
+.hero .header h2,
+.hero .header h4 {
+  margin: 15px 0 15px;
+}
