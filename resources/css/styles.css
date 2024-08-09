@@ -49,6 +49,10 @@ header {
   height: 50px;
 }
 
+main {
+  margin: 0 50px;
+}
+
 .hero {
   display: flex;
   align-items: center;
@@ -57,10 +61,8 @@ header {
   background-image: url(../images/img-mission-background.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  margin: 0 50px;
   height: 700px;
   min-width: 1200px;
-  width: 100vw;
 }
 
 .hero .header {
@@ -71,4 +73,30 @@ header {
 .hero .header h2,
 .hero .header h4 {
   margin: 15px 0 15px;
+}
+
+.tea-of-month {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.product {
+  margin: 0 15px;
+}
+
+.product img {
+  height: 200px;
+  width: 300px;
+  margin: 0 0 10px;
+}
+
+.product h4 {
+  margin: 0 auto 20px;
 }
