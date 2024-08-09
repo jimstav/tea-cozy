@@ -51,6 +51,11 @@ header {
 
 main {
   margin: 0 50px 50px;
+  width: 1200px;
+}
+
+footer {
+  margin: 0 auto 40px 20px;
 }
 
 .hero {
@@ -132,4 +137,17 @@ main {
 
 .location p {
   margin: 30px auto 40px;
+}
+
+.contact {
+  height: 200px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  margin-bottom: 50px;
+}
+
+.copyright {
+  text-align: left;
 }
